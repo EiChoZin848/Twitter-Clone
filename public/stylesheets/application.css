@@ -1,0 +1,67 @@
+.navbar-brand .title{
+    color: white;
+}
+
+/* round images */
+.image{
+    border-radius: 50%;
+}
+.image img{
+    border-radius: 50%;
+}
+
+.notification:not(:last-child)
+{
+    margin-bottom: 0;
+}    
+.navbar.is-info:not(:first-child){
+    margin-top: 0;
+}
+.title{
+    text-align: center;
+}
+/* Sign In  */
+#inputForm .simple_form {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+#inputForm .simple_form .input-box {
+    margin-bottom: 10px;
+}
+#inputForm .simple_form input {
+    margin-bottom: 10px;
+    margin: 2px 0px;
+    display: inline-block;
+}
+.columns .link{
+    margin-top: 10px;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+/* Tweet TextArea */
+.simple_form #tweet_tweet{
+    height: 130px;
+}
+
+/* Notification */
+.notification #noti{
+    margin-bottom: 0;
+}
+/*element.style{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 241px;
+}
+.control.style{
+    height: 300px;
+}
+*/
+.time{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(65, 62, 62);
+    font-style: oblique;
+}
